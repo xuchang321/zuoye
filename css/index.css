@@ -1,0 +1,382 @@
+.page1{
+    position: relative;
+    background: url(../img/beijing.png) no-repeat left top;
+    background-size: cover;
+}
+.page1 img{
+    position: absolute;
+}
+.page1 .img01{
+    width: 3.75rem;
+    height:6.67rem;
+    top: 3.57rem;
+}
+.page1 img:nth-child(2){
+    /* 小汽车 */
+    width: 1.345rem;
+    height: .73rem;
+    left: 1.15rem;
+    top: 4.5rem;
+}
+.page1 img:nth-child(3){
+/* 男孩 */
+    width: 0.945rem;
+    height: 1.845rem;
+    left: 1.1rem;
+    top: 1.5rem;
+}
+.page1 img:nth-child(4){
+    /* 女孩 */
+    width: 0.945rem;
+    height: 1.845rem;
+    right: 1rem;
+    top: 1.6rem;
+}
+.page1 img:nth-child(5){
+    /* 左对话框 */
+    width: 1.35rem;
+    height:.8rem;
+    top: .9rem;
+    left: .2rem;
+}
+.page1 img:nth-child(6){
+    width: .8rem;
+    height: .3rem;
+    top: 1.1rem;
+    left: .5rem;
+}
+.page1 img:nth-child(7){
+    /* 右对话框 */
+    width: 1.08rem;
+    height: .75rem;
+    top: 1rem;
+    right: .26rem;
+}
+.page1 img:nth-child(8){
+    width: .76rem;
+    height:.32rem;
+    top: 1.2rem;
+    right: .5rem;
+}
+.page1 img:nth-child(9){
+    /* 驾校带你飞 */
+    width: 2.7rem;
+    height: .9rem;
+    top: 3rem;
+    left: .6rem;
+}
+.page1 img:nth-child(10){
+    /* 彩带 */
+    width: 2.5rem;
+    height: .4rem;
+    top: 4rem;
+    left: .7rem;
+    position: relative;
+}
+div{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+}
+@keyframes bounceInRight{
+    0%,100%,60%,75%,90%{
+        -webkit-transition-timing-function:cubic-bezier(0.215,.61,.355,1);transition-timing-function:cubic-bezier(0.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)
+    }
+    90%{
+        -webkit-transform:translate3d(-5px,0,0);
+        transform:translate3d(-5px,0,0)
+    }
+    100%{-webkit-transform:none;transform:none}
+}
+/* PAGE2 */
+.page2{
+    position: relative;
+    background: url(../img/beijing.png) no-repeat left top;
+    background-size: cover;
+}
+.page2 img{
+    position: absolute;
+}
+.page2 .img01{
+    /* bj图片 */
+    width: 3.75rem;
+    height:6.67rem;
+    top: 3.57rem;
+}
+.page2 img:nth-child(2){
+    /* 小汽车 */
+    width: 1.34rem;
+    height: .7rem;
+    top: .4rem;
+    left: .3rem;
+}
+.page2 img:nth-child(3){
+    /* 标题 */
+    width: 1.8rem;
+    height: .5rem;
+    top: .5rem;
+    right: .4rem;
+  
+}
+.page2   p{
+    /* 驾校简介 */
+    position: absolute;
+    left:2rem;
+    top: .6rem;
+    font-size: .2rem;
+    color: rgb(238, 234, 0);
+    
+}
+.page2 img:nth-child(5){
+    /* 大白框 */
+    width: 3.3rem;
+    height: 4rem;
+    top: 1.5rem;
+    left: .3rem;
+}
+.page2 p:nth-child(6){
+    /* 文字 */
+    width: 3rem;
+    height: 3.5rem;
+    top: 1.8rem;
+    left: .5rem;
+    color: rgb(0, 95, 169);
+    font-size: .17rem;
+}
+.page2 img:nth-child(7){
+    /* 男孩 */
+    width: 1.15rem;
+    height: 1.75rem;
+    top: 4.5rem;
+    left: .35rem;
+}
+/* PAGE3 */
+.page3{
+position: relative;
+background: url(../img/beijing.png) no-repeat left top;
+background-size: cover;
+}
+.page3 img{
+position: absolute;
+}
+.page3 .img01{
+/* bj图片 */
+width: 3.75rem;
+height:6.67rem;
+top: 3.57rem;
+}
+.page3 img:nth-child(2){
+    /* 小汽车 */
+    width: 1.34rem;
+    height: .7rem;
+    top: .4rem;
+    left: .3rem;
+}
+.page3 img:nth-child(3){
+    /* 标题 */
+    width: 1.8rem;
+    height: .5rem;
+    top: .5rem;
+    right: .4rem;
+}
+.page3   p{
+    /* 驾校简介 */
+    position: absolute;
+    left:2rem;
+    top: .6rem;
+    font-size: .2rem;
+    color: rgb(238, 234, 0);
+}
+.page3 img:nth-child(5){
+    /* 小白框 1 */
+    width: 1.38rem;
+    height: 1.62rem;
+    top: 1.3rem;
+    left: .3rem;
+    /* position: absolute;
+    transform: rotate(351deg); */
+}
+.page3 p:nth-child(6){
+   color: rgb(0, 95, 169);
+   display: inline-block;
+   font-size: .15rem;
+   top: 1.5rem;
+   left: .4rem;
+}
+.page3 img:nth-child(7){
+    /* 小白框 2 */
+    width: 1.35rem;
+    height: 1.66rem;
+    /* position: absolute;
+    transform: rotate(7deg); */
+    top: 1.3rem;
+    left:2rem;
+}
+.page3 img:nth-child(8){
+    /* 小白框 3 */
+    width: 1.35rem;
+    height: 1.55rem;
+    /* position: absolute;
+    transform: rotate(17deg); */
+    top: 4rem;
+    left: .3rem;
+}
+.page3 img:nth-child(9){
+    /* 小白框 4 */
+    width: 1.35rem;
+    height: 1.55rem;
+    /* position: absolute;
+    transform: rotate(359deg); */
+    top: 4rem;
+    left: 2.2rem;
+}
+.page3 p:nth-child(10){
+    color: rgb(0, 95, 169);
+   display: inline-block;
+   font-size: .13rem;
+   top: 1.5rem;
+   left: 2.1rem;
+}
+.page3 p:nth-child(11){
+    color: rgb(0, 95, 169);
+    display: inline-block;
+    font-size: .13rem;
+    top: 4.2rem;
+    left: .4rem;
+}
+.page3 p:nth-child(12){
+    color: rgb(0, 95, 169);
+    display: inline-block;
+    font-size: .13rem;
+    top: 4.2rem;
+    left: 2.3rem;
+}
+.page3 img:nth-child(13){
+    width: 1.2rem;
+    height: 1.5rem;
+    margin:2.9rem 1.4rem;
+}
+/* PAGE 4 */
+.page4{
+    position: relative;
+    background: url(../img/beijing.png) no-repeat left top;
+    background-size: cover;
+    }
+.page4 img{
+    position: absolute;
+}
+.page4 .img01{
+    /* bj图片 */
+    width: 3.75rem;
+    height:6.67rem;
+    top: 3.57rem;
+}
+.page4 img:nth-child(2){
+    /* 小汽车 */
+    width: 1.34rem;
+    height: .7rem;
+    top: .4rem;
+    left: .3rem;
+}
+.page4 img:nth-child(3){
+    /* 标题 */
+    width: 1.8rem;
+    height: .5rem;
+    top: .5rem;
+    right: .4rem;
+}
+.page4 p{
+    /* 现在报名 */
+    position: absolute;
+    left:2rem;
+    top: .6rem;
+    font-size: .2rem;
+    color: rgb(238, 234, 0);
+}
+.page4 img:nth-child(5){
+    /* 大白框 */
+    width: 3.2rem;
+    height: 4rem;
+    top: 1.5rem;
+    left: .3rem;
+}
+.page4 p:nth-child(6){
+    /* 文本输入框 */
+    top: 2rem;
+    left: .6rem;
+    line-height: .6rem;
+}
+.page4 p:nth-child(7){
+    /* 提交按钮 */
+    display: inline-block;
+    top: 4rem;
+    left: .6rem;
+    width: 2.5rem;
+    background-color: #005fa9;
+    color: #fff;
+    line-height: .5rem;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: .04rem;
+}
+.page4 img:nth-child(8){
+    /* 男孩 */
+    width: 0.94rem;
+    height: 1.55rem;
+    top: 4.6rem;
+    left: .5rem;
+}
+/* PAGE 5 */
+.page5{
+    position: relative;
+    background: url(../img/beijing.png) no-repeat left top;
+    background-size: cover;
+    }
+    .page5 img{
+    position: absolute;
+    }
+    .page5 .img01{
+    /* bj图片 */
+    width: 3.75rem;
+    height:6.67rem;
+    top: 3.57rem;
+    }
+    .page5 img:nth-child(2){
+        /* 小汽车 */
+        width: 1.34rem;
+        height: .7rem;
+        top: .4rem;
+        left: .3rem;
+    }
+    .page5 img:nth-child(3){
+        /* 标题 */
+        width: 1.8rem;
+        height: .5rem;
+        top: .5rem;
+        right: .4rem;
+      
+    }
+    .page5   p{
+        /* 关注我们 */
+        position: absolute;
+        left:2rem;
+        top: .6rem;
+        font-size: .2rem;
+        color: rgb(238, 234, 0);
+        
+    }
+   .page5 img:nth-child(5){
+       /* 手机 */
+       width: 3.2rem;
+       height: 4.5rem;
+       top: 1.2rem;
+   }
+   .page5 img:nth-child(6){
+      top: 2.5rem;
+      left: 1.32rem;
+   }
+   .page5 img:nth-child(8){
+       width: 2rem;
+       height: .9rem;
+       top: 5.5rem;
+   }
